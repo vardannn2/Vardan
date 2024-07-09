@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Document
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar-->
+    <header>
+        <h1> Javascript CRUD Operation App</h1>
+    </header>
+    <main class="mainback">
+        <section>
+            <div class="crud-form">
+                <div class="main-add">
+                    <h2>Student ADD Data Form</h2>
+                    <form class="addform" action="" id="Addform">
+                        <div class="addinputs">
+                            <label for="">Student Name</label>
+                            <input class="inputs" type="text" placeholder="Student Name" id="studentaddname" name="studentaddname" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Age</label>
+                            <input class="inputs" type="text" placeholder="StudentAge" id="studentaddage" name="studentaddage" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Email</label>
+                            <input class="inputs" type="email" placeholder="Student Email" id="studentaddemail" name="studentaddemail" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Phone No</label>
+                            <input class="inputs" type="tel" placeholder="Student Phone No" id="studentaddphone" name="studentaddphone" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Address</label>
+                            <textarea class="text-area inputs" name="studentaddaddress" id="studentaddaddress" placeholder="StudentAddress" value=""></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="main-edit">
+                    <h2>Student EDIT Data Form</h2>
+                    <form class="addform" action="" id="Editform">
+                        <div class="addinputs">
+                            <label for="">Student Name</label>
+                            <input class="inputs" type="text" placeholder="Student Name" id="studentEditname" name="studentEditname" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Age</label>
+                            <input class="inputs" type="text" placeholder="Student Age" id="studentEditage" name="studentEditage" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Email</label>
+                            <input class="inputs" type="email" placeholder="Student Email" id="studentEditemail" name="studentEditemail" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Phone No</label>
+                            <input class="inputs" type="tel" placeholder="Student Phone No" id="studentEditphoneno" name="studentEditno" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">Student Address</label>
+                            <textarea class="inputs textarea" name="studentEditaddress" id="studentEditaddress" placeholder="Student Address" value=""></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="student-table">
+                <h2>Student Data View Table</h2>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

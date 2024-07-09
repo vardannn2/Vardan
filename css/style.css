@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1,h2{
+    margin: 0;
+    color: white;
+    background-color: purple;
+}
+
+.main-add h2{
+    margin: 10px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-edit h2{
+    margin: 10px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.student-table{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+header{
+    background-color: aqua;
+}
+
+header h1{
+    text-align: center;
+    color:white;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Crud OPeration */
+
+.crud-form{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+textarea{
+    resize: none;
+}
+label{
+    display: block;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.addform{
+    background-color: plum;
+    padding: 10px;
+    max-width: 500px;
+    box-shadow: 10px 10px 20px purple;
+}
+
+.addinputs{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.inputs{
+    padding: 10px;
+    width: 100%;
+}
+
+input[type='submit']{
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+input[type='submit']:hover{
+    background-color: skyblue;
+}
+
+.mainback{
+    background-color: pink;
+    padding: 20px;
+}
